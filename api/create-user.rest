@@ -1,0 +1,23 @@
+#identification(Register)
+POST http://localhost:8080/auth/local 
+Content-Type: application/json
+Authorization: Bearer b53c096c9eee2e200f77b9501be96ccd3fded3192a6fe78140d052300fa6ee740f18ed898b54fb7cec0757d3887bb6e83c413ead7d93b4919ddb3120c25cbe99e0aac95451178f6f3729830bd212444883205577d2265b6d909a2d6aa59448164852aaf35c661b004753334b065e025b0e38f04ee2c9675dc419b5d6121286d8
+
+{
+    "username":"Khachaporn",
+    "email":"s6502041620115@email.kmutnb.ac.th",
+    "password":"S18p@ssw@rd"
+}
+
+
+
+
+
+#register
+POST http://localhost:8080/auth/local 
+Content-Type: application/json
+
+{
+    "identifier":"Khachaporn",
+    "password":"S18p@ssw@rd"
+}
